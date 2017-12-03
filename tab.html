@@ -14,20 +14,26 @@
             right: 0;
             top: 0;
         }
-
         body {
             background: linear-gradient(to right, rgba(48,225,244,1) 0%,rgba(237,42,162,1) 100%);
         }
-
         #gif {
-            background-color: rgba(0, 0, 0, 50%);
-            background-repeat: no-repeat;
+            background-repeat: repeat;
+            background-position: center;
             background-size: cover;
+        }
+        #attribution {
+            bottom: 2em;
+            top: auto;
+            left: auto;
+            right: 2em;
+            z-index: 2;
         }
     </style>
 </head>
 <body>
-<div id="gif"></div>
-<script type="text/javascript" src="js/tab.js"></script>
+    <img id="attribution" src="img/PoweredBy_200_Horizontal_Light-Backgrounds_With_Logo.gif" />
+    <div id="gif"></div>
+    <script type="text/javascript" src="tab.js"></script>
 </body>
 </html>

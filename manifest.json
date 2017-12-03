@@ -2,21 +2,19 @@
   "chrome_url_overrides": {
     "newtab": "tab.html"
   },
-  "description": "Altered Giphy Tabs",
-  "homepage_url": "http://giphy.com",
+  "description": "Enjoy a distracting giphy every time you open a new tab",
+  "homepage_url": "https://github.com/dillonchr/giphytabs",
   "icons": {
-    "128": "/img/giphy_icon_128.png",
-    "16": "/img/giphy_icon_16.png",
-    "48": "/img/giphy_icon_48.png"
+    "128": "/img/icon_128.png",
+    "16": "/img/icon_16.png",
+    "48": "/img/icon_48.png"
   },
-  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA+yH5lI6caO6N1ffW+atsPCRKHM1L2abf9lhfrbPy8DD8o9stSNKVff6CwtTQ0WaF73v2yjuVZ4Sd5TsZG36yoIx+ZY3kEH6N7jYj9PDIi9go6qVW7DUE0r1C+S0SyOuhq3n4A4h+TERc1vzwzRzudNx3yPIcJ7tCAy7zbMOI0MTDyQBt3nli97yC31r2xGVgeFdvW7HwEqZEQA28H1TFtFTUKQhPln+3ZCSGKcxcFYx2qPiwttBEphJThNi0qDz3dulh7B4Gy0KdPAYLYV6ds7c4WumcO/+9HYNp2SUMuz2I7ICFZD5lyE4zs3YxYC4kLnuQIrXTXGUpEpCpFRuYSwIDAQAB",
   "manifest_version": 2,
-  "name": "My Giphy Tabs",
+  "name": "RE:GiphyTabs",
+  "short_name": "RE:GiphyTabs",
   "permissions": [
     "tabs",
     "contextMenus"
   ],
-  "short_name": "My Giphy Tabs",
-  "update_url": "https://clients2.google.com/service/update2/crx",
   "version": "1.0"
 }
